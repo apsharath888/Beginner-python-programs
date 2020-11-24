@@ -1,0 +1,9 @@
+# importing the module
+import calendar
+
+# input the year
+year=int(input("Enter year: "))
+
+# printing the calendar
+print("The calenar is...")
+print(calendar.calendar(year))
